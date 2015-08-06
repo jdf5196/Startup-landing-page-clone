@@ -437,6 +437,9 @@ body {
 /* Navigation Selection */
 .top-navigation {
   background-color: #fff;
+  position:fixed;
+  width:100%;
+  top:0px;
 }
 .top-navigation .content {
   width: 970px;
@@ -448,7 +451,8 @@ body {
 }
 .top-navigation .links li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 .top-navigation .links .active {
   color: #4c5058;
@@ -500,4 +504,22 @@ button:hover {
   cursor: pointer;
   background-color:#d9400e;
   border-color: #cfd30e;
+}
+.Icons h2 {
+  font-size: 3rem;
+  margin-top:7rem;
+  font-weight:300;
+}
+.Icons .content {
+  color:#1d1e21;
+  text-align:center;
+}
+.Icons .devices {
+  margin:0 auto;
+  display: inline-block;
+  margin: 3.5rem;
+}
+.Icons .devices h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
