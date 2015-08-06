@@ -439,6 +439,7 @@ body {
   background-color: #fff;
   position:fixed;
   width:100%;
+  z-index: 9999;
   top:0px;
 }
 .top-navigation .content {
@@ -517,9 +518,9 @@ button:hover {
 .Icons .devices {
   margin:0 auto;
   display: inline-block;
-  margin: 3.5rem;
+  margin: 1.75rem;
 }
 .Icons .devices h3 {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
