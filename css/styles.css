@@ -524,3 +524,16 @@ button:hover {
   font-weight: 400;
   font-size: 1.6rem;
 }
+.social .icons > li {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right:2rem;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 25px;
+}
+.social hr {
+  border-top: 1px solid #e8e8e8;
+  margin: 1.4rem 0;
+}
